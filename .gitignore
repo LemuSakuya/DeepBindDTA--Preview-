@@ -1,0 +1,42 @@
+.venv/
+__pycache__/
+**/__pycache__/
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+*.pyc
+*.pyo
+*.pyd
+
+# VS Code / IDE
+.vscode/
+.idea/
+
+# Outputs / temp
+output/
+*.log
+
+# Model artifacts
+savemodel/
+*.pth
+
+# Local caches / trash
+.mplconfig/
+.trash/
+
+# Generated prediction outputs
+Pred_egfr_soft.csv
+
+# Papers (large PDFs, reference only)
+papers/
+
+# Personal scan / environment notes
+docs/*.txt
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local env vars
+.env
+.env.*
+!.env.example

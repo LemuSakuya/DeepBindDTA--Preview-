@@ -1,0 +1,58 @@
+{
+  "points": [
+    {
+      "id": "Inoue-DrugAgent-DTI: multi-agent framework + tool use",
+      "pdf": "e:/Study/DrugDeepMind/software/Inoue 等 - 2025 - DrugAgent multi-agent large language model-based reasoning for drug-target interaction prediction.compare.pdf",
+      "keywords": ["DrugAgent", "multi-agent", "tool", "workflow", "agent", "framework", "Figure", "overview", "architecture"]
+    },
+    {
+      "id": "Inoue-DrugAgent-DTI: reasoning trace / stepwise reasoning",
+      "pdf": "e:/Study/DrugDeepMind/software/Inoue 等 - 2025 - DrugAgent multi-agent large language model-based reasoning for drug-target interaction prediction.compare.pdf",
+      "keywords": ["reasoning", "chain-of-thought", "step", "trace", "planner", "verifier"]
+    },
+
+    {
+      "id": "Li-DrugPilot: parameterized reasoning (structured outputs)",
+      "pdf": "e:/Study/DrugDeepMind/software/Li 等 - 2025 - DrugPilot LLM-based parameterized reasoning agent for drug discovery.compare.pdf",
+      "keywords": ["DrugPilot", "parameter", "parameterized reasoning", "schema", "JSON", "structured", "constraint", "template"]
+    },
+    {
+      "id": "Li-DrugPilot: controllability / reproducibility",
+      "pdf": "e:/Study/DrugDeepMind/software/Li 等 - 2025 - DrugPilot LLM-based parameterized reasoning agent for drug discovery.compare.pdf",
+      "keywords": ["reproduc", "controll", "determin", "audit", "trace", "log"]
+    },
+
+    {
+      "id": "Liu-DrugAgent-AutoProg: multi-agent collaboration for coding",
+      "pdf": "e:/Study/DrugDeepMind/software/Liu 等 - 2025 - DrugAgent automating AI-aided drug discovery programming through LLM multi-agent collaboration.compare.pdf",
+      "keywords": ["multi-agent", "collaboration", "programming", "code", "tool", "pipeline", "workflow", "agent"]
+    },
+    {
+      "id": "Liu-DrugAgent-AutoProg: roles (planner/engineer/reviewer)",
+      "pdf": "e:/Study/DrugDeepMind/software/Liu 等 - 2025 - DrugAgent automating AI-aided drug discovery programming through LLM multi-agent collaboration.compare.pdf",
+      "keywords": ["planner", "engineer", "review", "critic", "role", "team"]
+    },
+
+    {
+      "id": "Sun-ExDDI: natural language explanation for DDI predictions",
+      "pdf": "e:/Study/DrugDeepMind/software/Sun 等 - ExDDI Explaining Drug-Drug Interaction Predictions with Natural Language.compare.pdf",
+      "keywords": ["ExDDI", "explain", "natural language", "rationale", "interpret", "generated", "explanation"]
+    },
+    {
+      "id": "Sun-ExDDI: evaluation of explanations",
+      "pdf": "e:/Study/DrugDeepMind/software/Sun 等 - ExDDI Explaining Drug-Drug Interaction Predictions with Natural Language.compare.pdf",
+      "keywords": ["evaluation", "human", "faithful", "fidelity", "automatic", "metric"]
+    },
+
+    {
+      "id": "Wang-PKAG-DDI: knowledge-augmented language model",
+      "pdf": "e:/Study/DrugDeepMind/software/Wang 等 - PKAG-DDI Pairwise Knowledge-Augmented Language Model for Drug-Drug Interaction Event Text Generatio.no_watermark.zh-CN.dual.pdf",
+      "keywords": ["knowledge", "augmented", "PKAG", "graph", "pairwise", "retrieval", "entity", "relation"]
+    },
+    {
+      "id": "Wang-PKAG-DDI: pairwise knowledge / event generation",
+      "pdf": "e:/Study/DrugDeepMind/software/Wang 等 - PKAG-DDI Pairwise Knowledge-Augmented Language Model for Drug-Drug Interaction Event Text Generatio.no_watermark.zh-CN.dual.pdf",
+      "keywords": ["event", "generation", "text", "pair", "interaction", "prompt"]
+    }
+  ]
+}

@@ -1,0 +1,536 @@
+{
+  "hits": [
+    {
+      "pdf": "e:\\Study\\DrugDeepMind\\software\\Inoue 等 - 2025 - DrugAgent multi-agent large language model-based reasoning for drug-target interaction prediction.compare.pdf",
+      "point_id": "Inoue-DrugAgent-DTI: multi-agent framework + tool use",
+      "keyword": "DrugAgent",
+      "page": 1,
+      "snippet": "y, existing approaches face challenges due to complex biological systems and the lack of interpretability needed for clinical applications. DrugAgent is a multi-agent LLM system for DTI prediction that combines multiple specialized perspectives with transparent reasoning. Our system adapts and extends existing multi-agent frameworks by (1) applyin"
+    },
+    {
+      "pdf": "e:\\Study\\DrugDeepMind\\software\\Inoue 等 - 2025 - DrugAgent multi-agent large language model-based reasoning for drug-target interaction prediction.compare.pdf",
+      "point_id": "Inoue-DrugAgent-DTI: multi-agent framework + tool use",
+      "keyword": "DrugAgent",
+      "page": 2,
+      "snippet": "nd predictions is essential for clinical decision-making and regulatory compliance. Code is available at https: //anonymous.4open.science/r/DrugAgent-B2EA. 1 I NTRODUCTION Large Language Models (LLMs) have demonstrated remarkable capabilities in solving a wide range of problems using human-friendly inputs (Wei et al., 2022a). However, these models"
+    },
+    {
+      "pdf": "e:\\Study\\DrugDeepMind\\software\\Inoue 等 - 2025 - DrugAgent multi-agent large language model-based reasoning for drug-target interaction prediction.compare.pdf",
+      "point_id": "Inoue-DrugAgent-DTI: multi-agent framework + tool use",
+      "keyword": "multi-agent",
+      "page": 1,
+      "snippet": "es. Still, limitations in their training prevent them from answering accurately in scenarios that could benefit from multiple perspectives. Multi-agent systems allow the resolution of questions to enhance result consistency and reliability. While drug-target interaction (DTI) prediction is important for drug discovery, existing approaches face chall"
+    },
+    {
+      "pdf": "e:\\Study\\DrugDeepMind\\software\\Inoue 等 - 2025 - DrugAgent multi-agent large language model-based reasoning for drug-target interaction prediction.compare.pdf",
+      "point_id": "Inoue-DrugAgent-DTI: multi-agent framework + tool use",
+      "keyword": "multi-agent",
+      "page": 2,
+      "snippet": "cope or those requiring real-time data access and specialized domain knowledge. To address these challenges, there is a growing interest in Multi-Agent systems (Du et al., 2023) that utilize several agents to talk to each other and make a final decision incorporating external tools such as Knowledge Graphs (KG) (Shu et al., 2024), and Retrieval-Augm"
+    },
+    {
+      "pdf": "e:\\Study\\DrugDeepMind\\software\\Inoue 等 - 2025 - DrugAgent multi-agent large language model-based reasoning for drug-target interaction prediction.compare.pdf",
+      "point_id": "Inoue-DrugAgent-DTI: multi-agent framework + tool use",
+      "keyword": "tool",
+      "page": 2,
+      "snippet": "in Multi-Agent systems (Du et al., 2023) that utilize several agents to talk to each other and make a final decision incorporating external tools such as Knowledge Graphs (KG) (Shu et al., 2024), and Retrieval-Augmented Generation (RAG) (Lewis et al., 2020). These systems offer a more robust and reliable approach to problem-solving by leverag"
+    },
+    {
+      "pdf": "e:\\Study\\DrugDeepMind\\software\\Inoue 等 - 2025 - DrugAgent multi-agent large language model-based reasoning for drug-target interaction prediction.compare.pdf",
+      "point_id": "Inoue-DrugAgent-DTI: multi-agent framework + tool use",
+      "keyword": "tool",
+      "page": 3,
+      "snippet": "Preprint 2023). Recent studies have demonstrated that LLM-based search tools can enhance the efficiency and complexity of queries compared to traditional search engines (Spatharioti et al., 2023). LLMs with Reasoning LLMs with reasoning is a current trend in 2024. With sever"
+    },
+    {
+      "pdf": "e:\\Study\\DrugDeepMind\\software\\Inoue 等 - 2025 - DrugAgent multi-agent large language model-based reasoning for drug-target interaction prediction.compare.pdf",
+      "point_id": "Inoue-DrugAgent-DTI: multi-agent framework + tool use",
+      "keyword": "workflow",
+      "page": 3,
+      "snippet": "knowledge graphs. It then integrates this information using a weighted average approach to simulate a knowledgeable DTI research team. The workflow of our system follows a systematic multi-agent approach: 1. The workflow begins with user input specifying drug and target names, initializing five specialized agents (Coordinator, AI, Search, KG, an"
+    },
+    {
+      "pdf": "e:\\Study\\DrugDeepMind\\software\\Inoue 等 - 2025 - DrugAgent multi-agent large language model-based reasoning for drug-target interaction prediction.compare.pdf",
+      "point_id": "Inoue-DrugAgent-DTI: multi-agent framework + tool use",
+      "keyword": "workflow",
+      "page": 4,
+      "snippet": "then integrates this information through CoT and ReAct frameworks to generate final scores with reasoning. Agent’s role in managing overall workflow and inter-agent communication. The Reasoning Agent, which analyzes and integrates evidence through CoT and ReAct frameworks, utilizes OpenAI o3-mini. This model was specifically fine-tuned for reason"
+    },
+    {
+      "pdf": "e:\\Study\\DrugDeepMind\\software\\Inoue 等 - 2025 - DrugAgent multi-agent large language model-based reasoning for drug-target interaction prediction.compare.pdf",
+      "point_id": "Inoue-DrugAgent-DTI: reasoning trace / stepwise reasoning",
+      "keyword": "reasoning",
+      "page": 1,
+      "snippet": "Preprint DRUG AGENT : M ULTI -AGENT LARGE LANGUAGE MODEL -BASED REASONING FOR DRUG -TARGET IN- TERACTION PREDICTION Yoshitaka Inoue Dept of Computer Science and Engineering University of Minnesota Minneapolis, MN, USA Computational Biology Branch, National Library of Medic"
+    },
+    {
+      "pdf": "e:\\Study\\DrugDeepMind\\software\\Inoue 等 - 2025 - DrugAgent multi-agent large language model-based reasoning for drug-target interaction prediction.compare.pdf",
+      "point_id": "Inoue-DrugAgent-DTI: reasoning trace / stepwise reasoning",
+      "keyword": "reasoning",
+      "page": 2,
+      "snippet": "ent specializes in a specific aspect of the drug discovery process. Our architecture includes five agents: Coordinator, AI, KG, Search, and Reasoning Agent. The Coordinator Agent manages communication and data formatting between agents. The AI Agent employs the DeepPurpose package to predict DTI scores from molecular structures and protein sequenc"
+    },
+    {
+      "pdf": "e:\\Study\\DrugDeepMind\\software\\Inoue 等 - 2025 - DrugAgent multi-agent large language model-based reasoning for drug-target interaction prediction.compare.pdf",
+      "point_id": "Inoue-DrugAgent-DTI: reasoning trace / stepwise reasoning",
+      "keyword": "chain-of-thought",
+      "page": 1,
+      "snippet": "n, (2) integrating domain-specific data sources, including ML predictions, knowledge graphs, and literature evidence, and (3) incorporating Chain-of-Thought (CoT) and ReAct (Reason+Act) frameworks for transparent DTI reasoning. We conducted comprehensive experiments using a kinase inhibitor dataset, where our multi-agent LLM method outperformed the non-r"
+    },
+    {
+      "pdf": "e:\\Study\\DrugDeepMind\\software\\Inoue 等 - 2025 - DrugAgent multi-agent large language model-based reasoning for drug-target interaction prediction.compare.pdf",
+      "point_id": "Inoue-DrugAgent-DTI: reasoning trace / stepwise reasoning",
+      "keyword": "chain-of-thought",
+      "page": 3,
+      "snippet": "ngines (Spatharioti et al., 2023). LLMs with Reasoning LLMs with reasoning is a current trend in 2024. With several techniques, such as the Chain-of-Thought (CoT) (Wei et al., 2022b) and ReAct (Reason+Act)(Yao et al., 2022), LLM can make a reason why it makes a decision. CoT enables LLMs to show their reasoning process by generating intermediate steps, s"
+    },
+    {
+      "pdf": "e:\\Study\\DrugDeepMind\\software\\Inoue 等 - 2025 - DrugAgent multi-agent large language model-based reasoning for drug-target interaction prediction.compare.pdf",
+      "point_id": "Inoue-DrugAgent-DTI: reasoning trace / stepwise reasoning",
+      "keyword": "step",
+      "page": 2,
+      "snippet": "literature-based evidence. The Reasoning Agent then integrates this evidence through CoT and ReAct frameworks to generate final scores with step-by-step explanations. The architecture we developed, although initially designed for biological applications, can be adapted to various other fields requiring multiple perspectives. 2 R ELATED WORKS"
+    },
+    {
+      "pdf": "e:\\Study\\DrugDeepMind\\software\\Inoue 等 - 2025 - DrugAgent multi-agent large language model-based reasoning for drug-target interaction prediction.compare.pdf",
+      "point_id": "Inoue-DrugAgent-DTI: reasoning trace / stepwise reasoning",
+      "keyword": "step",
+      "page": 3,
+      "snippet": "o et al., 2022), LLM can make a reason why it makes a decision. CoT enables LLMs to show their reasoning process by generating intermediate steps, such as “Let’s approach this step by step: First, analyze the ML prediction score..., Second, examine the knowledge graph evidence..., Finally, integrate all evidence...”. ReAct extends this by com"
+    },
+    {
+      "pdf": "e:\\Study\\DrugDeepMind\\software\\Inoue 等 - 2025 - DrugAgent multi-agent large language model-based reasoning for drug-target interaction prediction.compare.pdf",
+      "point_id": "Inoue-DrugAgent-DTI: reasoning trace / stepwise reasoning",
+      "keyword": "trace",
+      "page": 5,
+      "snippet": "r 13,000 drug entries, including FDA-approved small-molecule drugs, biopharmaceuticals (proteins, peptides, vaccines, and allergens), and nutraceuticals. • Comparative Toxicogenomics Database (CTD): The CTD (Davis et al., 2023) is a curated database providing information about chemical–gene/protein interactions, chemical–disease, and gene-dise"
+    },
+    {
+      "pdf": "e:\\Study\\DrugDeepMind\\software\\Li 等 - 2025 - DrugPilot LLM-based parameterized reasoning agent for drug discovery.compare.pdf",
+      "point_id": "Li-DrugPilot: parameterized reasoning (structured outputs)",
+      "keyword": "DrugPilot",
+      "page": 1,
+      "snippet": "DrugPilot: LLM-based Parameterized Reasoning Agent for Drug Discovery Kun Li1†, Zhennan Wu1†, Shoupeng Wang2†, Jia Wu3, Shirui Pan4, Wenbin Hu1* 1School of Computer Science, Wuhan University, Wuhan, China. 2Sc"
+    },
+    {
+      "pdf": "e:\\Study\\DrugDeepMind\\software\\Li 等 - 2025 - DrugPilot LLM-based parameterized reasoning agent for drug discovery.compare.pdf",
+      "point_id": "Li-DrugPilot: parameterized reasoning (structured outputs)",
+      "keyword": "DrugPilot",
+      "page": 3,
+      "snippet": "EO, GPT-4, … Single-task focus DrugAgent, DrugAssist, MolecularGPT, … Difficulty in multi-turn collaboration MLE-bench, CTR, Granite, … DrugPilot (Ours) Solve Easily ! ! ! DrugPilot’s Application Scenarios Other Drug Discovery LLMs/Agents v.s. Our DrugPilot Fig. 1:Application scenarios and advantages of DrugPilot. a,Four application scenarios"
+    },
+    {
+      "pdf": "e:\\Study\\DrugDeepMind\\software\\Li 等 - 2025 - DrugPilot LLM-based parameterized reasoning agent for drug discovery.compare.pdf",
+      "point_id": "Li-DrugPilot: parameterized reasoning (structured outputs)",
+      "keyword": "parameter",
+      "page": 1,
+      "snippet": "DrugPilot: LLM-based Parameterized Reasoning Agent for Drug Discovery Kun Li1†, Zhennan Wu1†, Shoupeng Wang2†, Jia Wu3, Shirui Pan4, Wenbin Hu1* 1School of Computer Science, Wuhan University, Wuhan, China. 2School of Mathematics a"
+    },
+    {
+      "pdf": "e:\\Study\\DrugDeepMind\\software\\Li 等 - 2025 - DrugPilot LLM-based parameterized reasoning agent for drug discovery.compare.pdf",
+      "point_id": "Li-DrugPilot: parameterized reasoning (structured outputs)",
+      "keyword": "parameter",
+      "page": 2,
+      "snippet": "ional science domains requiring automated, interactive, and data-integrated reasoning. Keywords: large language model, agent, tool calling, parameterized reasoning, drug discovery With the rapid development of deep learning, artificial intelligence (AI)-assisted drug discovery is emerging as a revolutionary way to significantly enhance the efficie"
+    },
+    {
+      "pdf": "e:\\Study\\DrugDeepMind\\software\\Li 等 - 2025 - DrugPilot LLM-based parameterized reasoning agent for drug discovery.compare.pdf",
+      "point_id": "Li-DrugPilot: parameterized reasoning (structured outputs)",
+      "keyword": "parameterized reasoning",
+      "page": 1,
+      "snippet": "DrugPilot: LLM-based Parameterized Reasoning Agent for Drug Discovery Kun Li1†, Zhennan Wu1†, Shoupeng Wang2†, Jia Wu3, Shirui Pan4, Wenbin Hu1* 1School of Computer Science, Wuhan University, Wuhan, China. 2School of Mathematics and Statistics,"
+    },
+    {
+      "pdf": "e:\\Study\\DrugDeepMind\\software\\Li 等 - 2025 - DrugPilot LLM-based parameterized reasoning agent for drug discovery.compare.pdf",
+      "point_id": "Li-DrugPilot: parameterized reasoning (structured outputs)",
+      "keyword": "parameterized reasoning",
+      "page": 2,
+      "snippet": "ional science domains requiring automated, interactive, and data-integrated reasoning. Keywords: large language model, agent, tool calling, parameterized reasoning, drug discovery With the rapid development of deep learning, artificial intelligence (AI)-assisted drug discovery is emerging as a revolutionary way to significantly enhance the efficiency and accura"
+    },
+    {
+      "pdf": "e:\\Study\\DrugDeepMind\\software\\Li 等 - 2025 - DrugPilot LLM-based parameterized reasoning agent for drug discovery.compare.pdf",
+      "point_id": "Li-DrugPilot: parameterized reasoning (structured outputs)",
+      "keyword": "JSON",
+      "page": 12,
+      "snippet": "functions to assist with the user query.Don't make assumptions about what values to plug into functions. For each function call return a json object with function name and arguments within<tool_call></tool_call>XML tags as follows: <tool_call>{\\\"name\\\":<function-name>, \\\"arguments\\\":<args- dict>}</tool_call> Tools: [ { ‘name’: ‘drug_p"
+    },
+    {
+      "pdf": "e:\\Study\\DrugDeepMind\\software\\Li 等 - 2025 - DrugPilot LLM-based parameterized reasoning agent for drug discovery.compare.pdf",
+      "point_id": "Li-DrugPilot: parameterized reasoning (structured outputs)",
+      "keyword": "JSON",
+      "page": 14,
+      "snippet": "user inputs a natural language description of the drug discovery task; 2. Function Call: The LLM generates the tool calling information in JSON format, specifying the tool name and corresponding parameters; 3. Observation: The tool is called and the execution result is returned; 4. LLM: The LLM generates a response integrating the observatio"
+    },
+    {
+      "pdf": "e:\\Study\\DrugDeepMind\\software\\Li 等 - 2025 - DrugPilot LLM-based parameterized reasoning agent for drug discovery.compare.pdf",
+      "point_id": "Li-DrugPilot: controllability / reproducibility",
+      "keyword": "controll",
+      "page": 15,
+      "snippet": "s. Its purpose is to optimize parameter passing efficiency within the agent, thereby reducing the reasoning burden on LLMs, improv- ing the controllability of reasoning results, and ultimately enhancing the performance of LLMs in drug-related tool calling. We conducted prompt engineering to help LLMs better understand PMP. The memory pool prompt"
+    },
+    {
+      "pdf": "e:\\Study\\DrugDeepMind\\software\\Li 等 - 2025 - DrugPilot LLM-based parameterized reasoning agent for drug discovery.compare.pdf",
+      "point_id": "Li-DrugPilot: controllability / reproducibility",
+      "keyword": "controll",
+      "page": 18,
+      "snippet": "these issues, we propose a feedback-focus mechanism, named Fe-Fo, to help LLMs correct errors and maintain focus, making their output more controllable. In the feedback mechanism, we alleviate common reasoning issues by feeding error information back to LLMs. When calling drug-related tools, the reasoning output of LLMs exhibits a series of comm"
+    },
+    {
+      "pdf": "e:\\Study\\DrugDeepMind\\software\\Li 等 - 2025 - DrugPilot LLM-based parameterized reasoning agent for drug discovery.compare.pdf",
+      "point_id": "Li-DrugPilot: controllability / reproducibility",
+      "keyword": "determin",
+      "page": 10,
+      "snippet": "oys KCHML [39] as the core engine for MPP. In this case study, we evaluate its predictive capabilities on a binary classification task that determines whether a molecule functions as a BACE inhibitor. As shown in Fig. 4c, we select the top five and bottom five molecules from the BACE dataset and predict their likelihood of being BACE-1 inhibitors"
+    },
+    {
+      "pdf": "e:\\Study\\DrugDeepMind\\software\\Li 等 - 2025 - DrugPilot LLM-based parameterized reasoning agent for drug discovery.compare.pdf",
+      "point_id": "Li-DrugPilot: controllability / reproducibility",
+      "keyword": "determin",
+      "page": 12,
+      "snippet": "d interact appropriately based on tool specifications and observations. The distribution of samples across different tools and patterns was determined considering their usage scenarios, parameter complexity, and frequency of application. In a complete workflow, tools such as drug_optimization and drug_generation are more likely to be used in comb"
+    },
+    {
+      "pdf": "e:\\Study\\DrugDeepMind\\software\\Li 等 - 2025 - DrugPilot LLM-based parameterized reasoning agent for drug discovery.compare.pdf",
+      "point_id": "Li-DrugPilot: controllability / reproducibility",
+      "keyword": "trace",
+      "page": 19,
+      "snippet": "the agent verifies and refines its intermediate reasoning steps by embedding symbolic logic principles. • ReAct [27] interleaves reasoning traces with actions to enable LLMs to iteratively plan, gather information, and adjust strategies. • ChatGPT-4o [35] Function Calling API is a structured tool-calling interface provided by OpenAI, built on"
+    },
+    {
+      "pdf": "e:\\Study\\DrugDeepMind\\software\\Li 等 - 2025 - DrugPilot LLM-based parameterized reasoning agent for drug discovery.compare.pdf",
+      "point_id": "Li-DrugPilot: controllability / reproducibility",
+      "keyword": "log",
+      "page": 1,
+      "snippet": "University, Wuhan, China. 3Department of Computing, Macquarie University, Sydney, Australia. 4School of Information and Communication Technology, Griffith University, Brisbane, Australia. *Corresponding author(s). E-mail(s): hwb@whu.edu.cn; Contributing authors: likun98@whu.edu.cn; wuzhennan@whu.edu.cn; wangshoupeng@whu.edu.cn; jia.wu@mq.edu"
+    },
+    {
+      "pdf": "e:\\Study\\DrugDeepMind\\software\\Li 等 - 2025 - DrugPilot LLM-based parameterized reasoning agent for drug discovery.compare.pdf",
+      "point_id": "Li-DrugPilot: controllability / reproducibility",
+      "keyword": "log",
+      "page": 2,
+      "snippet": "ization [15], target affinity prediction [16], and molecular property prediction [17, 18] and so on. However, researchers in phar- macy, biology, and other related fields often lack the technical expertise to operate state-of-the-art (SOTA) deep learning models [19, 20]. These models have stringent input format requirements, and researchers"
+    },
+    {
+      "pdf": "e:\\Study\\DrugDeepMind\\software\\Liu 等 - 2025 - DrugAgent automating AI-aided drug discovery programming through LLM multi-agent collaboration.compare.pdf",
+      "point_id": "Liu-DrugAgent-AutoProg: multi-agent collaboration for coding",
+      "keyword": "multi-agent",
+      "page": 1,
+      "snippet": "DrugAgent: Automating AI-aided Drug Discovery Programming through LLM Multi-Agent Collaboration Sizhe Liu1, Yizhou Lu1, Siyu Chen1, Xiyang Hu2, Jieyu Zhao1, Yingzhou Lu3, Yue Zhao1* 1University of Southern California 2Carnegie Mellon University 3Stanford University Abstract Recent"
+    },
+    {
+      "pdf": "e:\\Study\\DrugDeepMind\\software\\Liu 等 - 2025 - DrugAgent automating AI-aided drug discovery programming through LLM multi-agent collaboration.compare.pdf",
+      "point_id": "Liu-DrugAgent-AutoProg: multi-agent collaboration for coding",
+      "keyword": "multi-agent",
+      "page": 2,
+      "snippet": "o- cessing and modeling. A detailed comparison with existing approaches is in Table 1 and Appendix A. 2 Methodology We present DrugAgent, a multi-agent LLM frame- work designed to handle the specialized challenges of AI-driven drug discovery. As illustrated in Fig- ure 1, DrugAgent integrates two primary agents: (1) an LLM Planner, which manages the"
+    },
+    {
+      "pdf": "e:\\Study\\DrugDeepMind\\software\\Liu 等 - 2025 - DrugAgent automating AI-aided drug discovery programming through LLM multi-agent collaboration.compare.pdf",
+      "point_id": "Liu-DrugAgent-AutoProg: multi-agent collaboration for coding",
+      "keyword": "collaboration",
+      "page": 1,
+      "snippet": "DrugAgent: Automating AI-aided Drug Discovery Programming through LLM Multi-Agent Collaboration Sizhe Liu1, Yizhou Lu1, Siyu Chen1, Xiyang Hu2, Jieyu Zhao1, Yingzhou Lu3, Yue Zhao1* 1University of Southern California 2Carnegie Mellon University 3Stanford University Abstract Recent progress in L"
+    },
+    {
+      "pdf": "e:\\Study\\DrugDeepMind\\software\\Liu 等 - 2025 - DrugAgent automating AI-aided drug discovery programming through LLM multi-agent collaboration.compare.pdf",
+      "point_id": "Liu-DrugAgent-AutoProg: multi-agent collaboration for coding",
+      "keyword": "collaboration",
+      "page": 4,
+      "snippet": "ized AI capabilities and the nu- anced demands of pharmaceutical research. We believe this work opens exciting new avenues for research and collaboration, pushing the boundaries of AI-driven drug discovery. 4 ADMET HTS DTI 方法 ROC‑AUC\u0001(↑) 有效率\u0001(↑) ROC‑AUC\u0001(↑) 有效率\u0001(↑) ROC‑AUC\u0001(↑) 有效率\u0001(↑) 人类 0.8173 — 0.8305 — 0.8940 — CoT 0.7599 62.5% 0.7524 50.0% N/A 0.0"
+    },
+    {
+      "pdf": "e:\\Study\\DrugDeepMind\\software\\Liu 等 - 2025 - DrugAgent automating AI-aided drug discovery programming through LLM multi-agent collaboration.compare.pdf",
+      "point_id": "Liu-DrugAgent-AutoProg: multi-agent collaboration for coding",
+      "keyword": "programming",
+      "page": 1,
+      "snippet": "DrugAgent: Automating AI-aided Drug Discovery Programming through LLM Multi-Agent Collaboration Sizhe Liu1, Yizhou Lu1, Siyu Chen1, Xiyang Hu2, Jieyu Zhao1, Yingzhou Lu3, Yue Zhao1* 1University of Southern California 2Carnegie Mellon University 3Stanford Un"
+    },
+    {
+      "pdf": "e:\\Study\\DrugDeepMind\\software\\Liu 等 - 2025 - DrugAgent automating AI-aided drug discovery programming through LLM multi-agent collaboration.compare.pdf",
+      "point_id": "Liu-DrugAgent-AutoProg: multi-agent collaboration for coding",
+      "keyword": "programming",
+      "page": 2,
+      "snippet": "fferences between DrugAgent and existing agent methods. DrugAgent stands out by: 1) interacting with the environment, 2) specializing in ML programming, 3) incorporating domain knowledge specific to drug discovery, and 4) planning at the idea space level. Interaction with Env ML Specialization Domain Knowledge Idea Space Planning ReAct (Yao et al.,"
+    },
+    {
+      "pdf": "e:\\Study\\DrugDeepMind\\software\\Liu 等 - 2025 - DrugAgent automating AI-aided drug discovery programming through LLM multi-agent collaboration.compare.pdf",
+      "point_id": "Liu-DrugAgent-AutoProg: multi-agent collaboration for coding",
+      "keyword": "code",
+      "page": 2,
+      "snippet": "✗ ✗ ChemCrow (M. Bran et al., 2024) ✔ ✗ ✔ ✗ DrugAgent (Ours) ✔ ✔ ✔ ✔ TestGeneration Unit Testpass? Domain Tool Construction Documentation CodeGeneration Self Debugging ConstructionComplete Idea SpaceIdea Space TestGeneration Unit Testpass? Documentation CodeGeneration Self Debugging ConstructionComplete Idea SpaceIdea Space Idea Space Co"
+    },
+    {
+      "pdf": "e:\\Study\\DrugDeepMind\\software\\Liu 等 - 2025 - DrugAgent automating AI-aided drug discovery programming through LLM multi-agent collaboration.compare.pdf",
+      "point_id": "Liu-DrugAgent-AutoProg: multi-agent collaboration for coding",
+      "keyword": "code",
+      "page": 3,
+      "snippet": "on specialized workflows, e.g., the correct handling of SMILES strings and tailored data preprocess- ing. When standard code-generation approaches ig- nore this domain requirements (Huang et al., 2023, 2024b), the resulting errors are hard to debug. Within DrugAgent, the Instructor incorporates domain knowledge at every st"
+    },
+    {
+      "pdf": "e:\\Study\\DrugDeepMind\\software\\Liu 等 - 2025 - DrugAgent automating AI-aided drug discovery programming through LLM multi-agent collaboration.compare.pdf",
+      "point_id": "Liu-DrugAgent-AutoProg: roles (planner/engineer/reviewer)",
+      "keyword": "planner",
+      "page": 1,
+      "snippet": "duce DrugAgent, a multi-agent framework that automates machine learning (ML) programming for drug discovery tasks. DrugAgent employs an LLM Planner that for- mulates high-level ideas and anLLM Instructor that identifies and integrates domain knowledge when implementing those ideas. We present case studies on three representative drug discov- ery"
+    },
+    {
+      "pdf": "e:\\Study\\DrugDeepMind\\software\\Liu 等 - 2025 - DrugAgent automating AI-aided drug discovery programming through LLM multi-agent collaboration.compare.pdf",
+      "point_id": "Liu-DrugAgent-AutoProg: roles (planner/engineer/reviewer)",
+      "keyword": "planner",
+      "page": 2,
+      "snippet": "Idea Space ConstructDomain Tools RandomForestGCN Final Code &Self DebuggingResearch Task(eg: ADMET) Coder Dataset DownloadingFingerprintingPlanner Instructor Construction Failed ...... Identified Domain Knowledge Report BestIdea Coder Domain Tool Construction RandomForest Final Code &Self DebuggingResearch Task(eg: ADMET) Coder Dataset Download"
+    },
+    {
+      "pdf": "e:\\Study\\DrugDeepMind\\software\\Liu 等 - 2025 - DrugAgent automating AI-aided drug discovery programming through LLM multi-agent collaboration.compare.pdf",
+      "point_id": "Liu-DrugAgent-AutoProg: roles (planner/engineer/reviewer)",
+      "keyword": "engineer",
+      "page": 7,
+      "snippet": "large language model. ACM Transactions on Multimedia Computing, Communications and Ap- plications. WecoAI. 2024. Aide: The machine learning engineer agent. Jason Wei, Xuezhi Wang, Dale Schuurmans, Maarten Bosma, Brian Ichter, Fei Xia, Ed Chi, Quoc Le, and Denny Zhou. 2022. Chain-of-thought prompting elicits reasoning in large language models. arX"
+    },
+    {
+      "pdf": "e:\\Study\\DrugDeepMind\\software\\Liu 等 - 2025 - DrugAgent automating AI-aided drug discovery programming through LLM multi-agent collaboration.compare.pdf",
+      "point_id": "Liu-DrugAgent-AutoProg: roles (planner/engineer/reviewer)",
+      "keyword": "engineer",
+      "page": 9,
+      "snippet": "ten focusing on variations of similar ideas. For example, it may compare logistic regression with logistic regression incorporating feature engineering, which limits its ability to explore more optimal approaches. 9 ADMET预测 高通量筛选预测 药物‑靶点相互作用预测 Type 单实例预测‑ tion 单实例预测‑ tion 多实例预测‑ tion 输入 SMILES字符串 SMILES字符串 SMILES字符串和氨 tein 基 acid se- 序列 影响 通过早期预防"
+    },
+    {
+      "pdf": "e:\\Study\\DrugDeepMind\\software\\Liu 等 - 2025 - DrugAgent automating AI-aided drug discovery programming through LLM multi-agent collaboration.compare.pdf",
+      "point_id": "Liu-DrugAgent-AutoProg: roles (planner/engineer/reviewer)",
+      "keyword": "review",
+      "page": 6,
+      "snippet": "rew Doig, Tim Guilliams, Joanna Latimer, Christine McNamee, et al. 2019. Drug repurposing: progress, challenges and recommendations. Nature Reviews Drug Discovery, 18(1):41–58. Yujia Qin, Shengding Hu, Yankai Lin, Weize Chen, Ning Ding, Ganqu Cui, Zheni Zeng, Yufei Huang, Chaojun Xiao, Chi Han, Yi Ren Fung, Yusheng Su, Huadong Wang, Cheng Qian,"
+    },
+    {
+      "pdf": "e:\\Study\\DrugDeepMind\\software\\Liu 等 - 2025 - DrugAgent automating AI-aided drug discovery programming through LLM multi-agent collaboration.compare.pdf",
+      "point_id": "Liu-DrugAgent-AutoProg: roles (planner/engineer/reviewer)",
+      "keyword": "critic",
+      "page": 1,
+      "snippet": "ly curated library of domain-specific documentation covering data ac- quisition, data transformation, and advanced model design, supporting critical tasks in drug discov- ery. We evaluate DrugAgent on three representa- tive tasks and find that it exceeds the performance of general-purpose baselines and matches or sur- passes expert-written meth"
+    },
+    {
+      "pdf": "e:\\Study\\DrugDeepMind\\software\\Liu 等 - 2025 - DrugAgent automating AI-aided drug discovery programming through LLM multi-agent collaboration.compare.pdf",
+      "point_id": "Liu-DrugAgent-AutoProg: roles (planner/engineer/reviewer)",
+      "keyword": "critic",
+      "page": 3,
+      "snippet": "B) and references a set of targeted doc- uments to build or refine specialized tools. The Instructor then generates a performance report—if critical functionalities are absent, it returns a failure report instead. Specifically, the Instructor relies on three curated types of documentation: • Raw Data Acquisition: Methods for retrieving and prep"
+    },
+    {
+      "pdf": "e:\\Study\\DrugDeepMind\\software\\Liu 等 - 2025 - DrugAgent automating AI-aided drug discovery programming through LLM multi-agent collaboration.compare.pdf",
+      "point_id": "Liu-DrugAgent-AutoProg: roles (planner/engineer/reviewer)",
+      "keyword": "role",
+      "page": 4,
+      "snippet": "strating that both the Plan- ner and Instructor contribute significantly to over- all performance. Additional qualitative analysis of their roles is provided in Appendix G. 3.3 Case Study Comparing DrugAgent with ReAct. We con- duct a case study to compare our framework with ReAct (see Appendix H for detailed traces and analysis). The results"
+    },
+    {
+      "pdf": "e:\\Study\\DrugDeepMind\\software\\Sun 等 - ExDDI Explaining Drug-Drug Interaction Predictions with Natural Language.compare.pdf",
+      "point_id": "Sun-ExDDI: natural language explanation for DDI predictions",
+      "keyword": "ExDDI",
+      "page": 1,
+      "snippet": "ExDDI: Explaining Drug-Drug Interaction Predictions with Natural Language Zhaoyue Sun1, Jiazheng Li2, Gabriele Pergola1, Yulan He1,2,3 1Department of Computer Science, University of Warwick 2Department of"
+    },
+    {
+      "pdf": "e:\\Study\\DrugDeepMind\\software\\Sun 等 - ExDDI Explaining Drug-Drug Interaction Predictions with Natural Language.compare.pdf",
+      "point_id": "Sun-ExDDI: natural language explanation for DDI predictions",
+      "keyword": "ExDDI",
+      "page": 2,
+      "snippet": "nts in bothtransductive and in- ductive settings to meet the needs of application scenarios. We propose and evaluate the performance of the ExDDI family methods for DDI explanation generation, which in- cludesthree different fine-tuning paradigms—namely, seq- to-seq, multi-task training, and multi-task training with staged inference —along wit"
+    },
+    {
+      "pdf": "e:\\Study\\DrugDeepMind\\software\\Sun 等 - ExDDI Explaining Drug-Drug Interaction Predictions with Natural Language.compare.pdf",
+      "point_id": "Sun-ExDDI: natural language explanation for DDI predictions",
+      "keyword": "explain",
+      "page": 1,
+      "snippet": "ExDDI: Explaining Drug-Drug Interaction Predictions with Natural Language Zhaoyue Sun1, Jiazheng Li2, Gabriele Pergola1, Yulan He1,2,3 1Department of Computer Science, University of Warwick 2Department of Informati"
+    },
+    {
+      "pdf": "e:\\Study\\DrugDeepMind\\software\\Sun 等 - ExDDI Explaining Drug-Drug Interaction Predictions with Natural Language.compare.pdf",
+      "point_id": "Sun-ExDDI: natural language explanation for DDI predictions",
+      "keyword": "explain",
+      "page": 7,
+      "snippet": "viding tools and baselines for future research. The experimental results reveal that the top-performing methods can effectively predict and explain new DDI relationships for known drugs, but their ability to predict and explain DDIs involving new drugs still requires significant improvement. Additionally, our experiments in- dicate that training"
+    },
+    {
+      "pdf": "e:\\Study\\DrugDeepMind\\software\\Sun 等 - ExDDI Explaining Drug-Drug Interaction Predictions with Natural Language.compare.pdf",
+      "point_id": "Sun-ExDDI: natural language explanation for DDI predictions",
+      "keyword": "natural language",
+      "page": 1,
+      "snippet": "ExDDI: Explaining Drug-Drug Interaction Predictions with Natural Language Zhaoyue Sun1, Jiazheng Li2, Gabriele Pergola1, Yulan He1,2,3 1Department of Computer Science, University of Warwick 2Department of Informatics, King’s College London 3The Alan Turing Institute Zhaoyu"
+    },
+    {
+      "pdf": "e:\\Study\\DrugDeepMind\\software\\Sun 等 - ExDDI Explaining Drug-Drug Interaction Predictions with Natural Language.compare.pdf",
+      "point_id": "Sun-ExDDI: natural language explanation for DDI predictions",
+      "keyword": "natural language",
+      "page": 2,
+      "snippet": "eatures or substructures in DDI inter- actions, offering valuable insights into the underlying pre- diction mechanisms. However, generating natural language explanations that focus on elucidating the pharmacological principles of DDIs offers another promising direction for further exploration. Additionally, exploring whether intro- ducing supervision sig"
+    },
+    {
+      "pdf": "e:\\Study\\DrugDeepMind\\software\\Sun 等 - ExDDI Explaining Drug-Drug Interaction Predictions with Natural Language.compare.pdf",
+      "point_id": "Sun-ExDDI: natural language explanation for DDI predictions",
+      "keyword": "rationale",
+      "page": 3,
+      "snippet": "of interactions between these drugs when administered together. Additionally, we aim to generate a textual explanation, s, elucidating the rationale behind the existence or non-existence of DDIs. For positive instances, we rely on DDI descriptions sourced from DDInter (Xiong et al. 2022) or DrugBank as the target explanation, while for negative i"
+    },
+    {
+      "pdf": "e:\\Study\\DrugDeepMind\\software\\Sun 等 - ExDDI Explaining Drug-Drug Interaction Predictions with Natural Language.compare.pdf",
+      "point_id": "Sun-ExDDI: natural language explanation for DDI predictions",
+      "keyword": "interpret",
+      "page": 2,
+      "snippet": "lities. Our experimen- tal analysis provides valuable insights for advancing fu- ture DDI-related research. Related Work DDI Prediction and Interpretability Many efforts have been dedicated to DDI prediction over the years. Some of them are based on similarity measurements, which are grounded on the assumption that similar drugs may possess simila"
+    },
+    {
+      "pdf": "e:\\Study\\DrugDeepMind\\software\\Sun 等 - ExDDI Explaining Drug-Drug Interaction Predictions with Natural Language.compare.pdf",
+      "point_id": "Sun-ExDDI: natural language explanation for DDI predictions",
+      "keyword": "interpret",
+      "page": 9,
+      "snippet": "; Aziziheris, K.; Niakan-Kalhori, S. R.; and Omidi, Y . 2016. Computerized techniques pave the way for drug-drug interaction prediction and interpreta- tion.BioImpacts: BI, 6(2): 71. Sridhar, D.; Fakhraei, S.; and Getoor, L. 2016. A proba- bilistic approach for collective similarity-based drug–drug interaction prediction. Bioinformatics, 32(20): 3"
+    },
+    {
+      "pdf": "e:\\Study\\DrugDeepMind\\software\\Sun 等 - ExDDI Explaining Drug-Drug Interaction Predictions with Natural Language.compare.pdf",
+      "point_id": "Sun-ExDDI: evaluation of explanations",
+      "keyword": "evaluation",
+      "page": 2,
+      "snippet": "is crucial for trustworthy AI-driven drug safety research. We created the ExDDI model family for this task and carried out a comprehensive evaluation, offering tools and baselines for future studies. • Our experiments reveal that top-performed fine-tuning methods can effectively capture molecular similari- ties and generate accurate explanations i"
+    },
+    {
+      "pdf": "e:\\Study\\DrugDeepMind\\software\\Sun 等 - ExDDI Explaining Drug-Drug Interaction Predictions with Natural Language.compare.pdf",
+      "point_id": "Sun-ExDDI: evaluation of explanations",
+      "keyword": "evaluation",
+      "page": 4,
+      "snippet": "tasets. The detailed description and statistics of the data are reported in Appendix C (Sun et al. 2024). Settings for Model Generalisation Evaluation To exam- ine the model’s generalisation ability to new drugs, we fol- lowed previous work (Nyamabo et al. 2022; Li et al. 2023) to evaluate the model under both transductive and inductive settings. F"
+    },
+    {
+      "pdf": "e:\\Study\\DrugDeepMind\\software\\Sun 等 - ExDDI Explaining Drug-Drug Interaction Predictions with Natural Language.compare.pdf",
+      "point_id": "Sun-ExDDI: evaluation of explanations",
+      "keyword": "human",
+      "page": 2,
+      "snippet": "rained on DDInter outperform those trained on DrugBank in pre- diction tasks, suggesting thatrich, detailed explana- tions not only enhance human understanding but also improve model prediction capabilities. Our experimen- tal analysis provides valuable insights for advancing fu- ture DDI-related research. Related Work DDI Prediction and Inter"
+    },
+    {
+      "pdf": "e:\\Study\\DrugDeepMind\\software\\Sun 等 - ExDDI Explaining Drug-Drug Interaction Predictions with Natural Language.compare.pdf",
+      "point_id": "Sun-ExDDI: evaluation of explanations",
+      "keyword": "human",
+      "page": 9,
+      "snippet": "eural information processing systems, 35: 24824–24837. Wiegreffe, S.; Hessel, J.; Swayamdipta, S.; Riedl, M.; and Choi, Y . 2022. Reframing Human-AI Collaboration for Gen- erating Free-Text Explanations. In Carpuat, M.; de Marn- effe, M.-C.; and Meza Ruiz, I. V ., eds., Proceedings of the 2022 Conference of the North American Chapter of the As"
+    },
+    {
+      "pdf": "e:\\Study\\DrugDeepMind\\software\\Sun 等 - ExDDI Explaining Drug-Drug Interaction Predictions with Natural Language.compare.pdf",
+      "point_id": "Sun-ExDDI: evaluation of explanations",
+      "keyword": "metric",
+      "page": 5,
+      "snippet": "ese factors, our model faces greater challenges in multi-classification tasks, which should be considered when comparing models. Evaluation Metrics We evaluate DDI explanation gener- ation using metrics including BLEU, ROUGE-1, ROUGE- 2, and ROUGE-L scores. To assess the models’ classifica- tion performance, we present accuracy and F1 scores in"
+    },
+    {
+      "pdf": "e:\\Study\\DrugDeepMind\\software\\Wang 等 - PKAG-DDI Pairwise Knowledge-Augmented Language Model for Drug-Drug Interaction Event Text Generatio.no_watermark.zh-CN.dual.pdf",
+      "point_id": "Wang-PKAG-DDI: knowledge-augmented language model",
+      "keyword": "knowledge",
+      "page": 1,
+      "snippet": "tics (Volume 1: Long Papers), pages 10996–11010 July 27 - August 1, 2025 ©2025 Association for Computational Linguistics PKAG-DDI: Pairwise Knowledge-Augmented Language Model for Drug-Drug Interaction Event Text Generation Ziyan Wang1*, Zhankun Xiong1∗, Feng Huang1, Wen Zhang123 †, 1College of Informatics, Huazhong Agricultural University, Wuhan,"
+    },
+    {
+      "pdf": "e:\\Study\\DrugDeepMind\\software\\Wang 等 - PKAG-DDI Pairwise Knowledge-Augmented Language Model for Drug-Drug Interaction Event Text Generatio.no_watermark.zh-CN.dual.pdf",
+      "point_id": "Wang-PKAG-DDI: knowledge-augmented language model",
+      "keyword": "knowledge",
+      "page": 2,
+      "snippet": "ogical functions holds promise for improving the capa- bility of LM for DDIE text generation. However, biological functions are specialized knowledge that may not be readily accessible, potentially limiting widespread practical applications. To tackle the above problem, we noticed retrieval-augmented generation (RAG), which has emerged as a popula"
+    },
+    {
+      "pdf": "e:\\Study\\DrugDeepMind\\software\\Wang 等 - PKAG-DDI Pairwise Knowledge-Augmented Language Model for Drug-Drug Interaction Event Text Generatio.no_watermark.zh-CN.dual.pdf",
+      "point_id": "Wang-PKAG-DDI: knowledge-augmented language model",
+      "keyword": "augmented",
+      "page": 1,
+      "snippet": "me 1: Long Papers), pages 10996–11010 July 27 - August 1, 2025 ©2025 Association for Computational Linguistics PKAG-DDI: Pairwise Knowledge-Augmented Language Model for Drug-Drug Interaction Event Text Generation Ziyan Wang1*, Zhankun Xiong1∗, Feng Huang1, Wen Zhang123 †, 1College of Informatics, Huazhong Agricultural University, Wuhan, China 2Hub"
+    },
+    {
+      "pdf": "e:\\Study\\DrugDeepMind\\software\\Wang 等 - PKAG-DDI Pairwise Knowledge-Augmented Language Model for Drug-Drug Interaction Event Text Generatio.no_watermark.zh-CN.dual.pdf",
+      "point_id": "Wang-PKAG-DDI: knowledge-augmented language model",
+      "keyword": "augmented",
+      "page": 2,
+      "snippet": "at may not be readily accessible, potentially limiting widespread practical applications. To tackle the above problem, we noticed retrieval-augmented generation (RAG), which has emerged as a popular knowledge augment tech- nique for LM (Gao et al., 2023; Fan et al., 2024). RAG leverages a retriever to extract several 2Herein, the italics refer to"
+    },
+    {
+      "pdf": "e:\\Study\\DrugDeepMind\\software\\Wang 等 - PKAG-DDI Pairwise Knowledge-Augmented Language Model for Drug-Drug Interaction Event Text Generatio.no_watermark.zh-CN.dual.pdf",
+      "point_id": "Wang-PKAG-DDI: knowledge-augmented language model",
+      "keyword": "PKAG",
+      "page": 1,
+      "snippet": "mputational Linguistics (Volume 1: Long Papers), pages 10996–11010 July 27 - August 1, 2025 ©2025 Association for Computational Linguistics PKAG-DDI: Pairwise Knowledge-Augmented Language Model for Drug-Drug Interaction Event Text Generation Ziyan Wang1*, Zhankun Xiong1∗, Feng Huang1, Wen Zhang123 †, 1College of Informatics, Huazhong Agricult"
+    },
+    {
+      "pdf": "e:\\Study\\DrugDeepMind\\software\\Wang 等 - PKAG-DDI Pairwise Knowledge-Augmented Language Model for Drug-Drug Interaction Event Text Generatio.no_watermark.zh-CN.dual.pdf",
+      "point_id": "Wang-PKAG-DDI: knowledge-augmented language model",
+      "keyword": "PKAG",
+      "page": 2,
+      "snippet": "cal function integration strategy is the second challenge. In this work, we propose a novel pairwise knowledge-augmented generative method (PKAG- DDI) for DDIE generation, which selects the pair- wise biological functions from the external knowl- edge set and takes them as context to enhance the DDIE generation of LM. Specifically, PKAG-DDI f"
+    },
+    {
+      "pdf": "e:\\Study\\DrugDeepMind\\software\\Wang 等 - PKAG-DDI Pairwise Knowledge-Augmented Language Model for Drug-Drug Interaction Event Text Generatio.no_watermark.zh-CN.dual.pdf",
+      "point_id": "Wang-PKAG-DDI: knowledge-augmented language model",
+      "keyword": "graph",
+      "page": 2,
+      "snippet": "Figure 2: The multi-class classification performance of two basic models (DDI-Finger and DDI-Graph) on the MecDDI dataset. These models with the biological function as additional information (w/ all inherent bio, w/ most relevant bio) have remarkable improvement under three common DDIE prediction"
+    },
+    {
+      "pdf": "e:\\Study\\DrugDeepMind\\software\\Wang 等 - PKAG-DDI Pairwise Knowledge-Augmented Language Model for Drug-Drug Interaction Event Text Generatio.no_watermark.zh-CN.dual.pdf",
+      "point_id": "Wang-PKAG-DDI: knowledge-augmented language model",
+      "keyword": "graph",
+      "page": 4,
+      "snippet": "st convert its SMILES to two commonly used initial molecular modalities by an RDKit tool: a fingerprint (Glen et al., 2006) and a molecular graph (i.e., atoms as nodes and bonds as edges). The molecular graph is then input into a graph encoder (Wang et al., 2024b) to get the molecular node prototype representations Ha ∈ RM×d, where M is the pr"
+    },
+    {
+      "pdf": "e:\\Study\\DrugDeepMind\\software\\Wang 等 - PKAG-DDI Pairwise Knowledge-Augmented Language Model for Drug-Drug Interaction Event Text Generatio.no_watermark.zh-CN.dual.pdf",
+      "point_id": "Wang-PKAG-DDI: pairwise knowledge / event generation",
+      "keyword": "event",
+      "page": 1,
+      "snippet": "ust 1, 2025 ©2025 Association for Computational Linguistics PKAG-DDI: Pairwise Knowledge-Augmented Language Model for Drug-Drug Interaction Event Text Generation Ziyan Wang1*, Zhankun Xiong1∗, Feng Huang1, Wen Zhang123 †, 1College of Informatics, Huazhong Agricultural University, Wuhan, China 2Hubei Key Laboratory of Agricultural Bioinformatic"
+    },
+    {
+      "pdf": "e:\\Study\\DrugDeepMind\\software\\Wang 等 - PKAG-DDI Pairwise Knowledge-Augmented Language Model for Drug-Drug Interaction Event Text Generatio.no_watermark.zh-CN.dual.pdf",
+      "point_id": "Wang-PKAG-DDI: pairwise knowledge / event generation",
+      "keyword": "event",
+      "page": 3,
+      "snippet": "n, especially in challenging inductive scenarios, indicating its practicality and generalization. 2 Related Works 2.1 Drug-Drug Interaction Event Prediction Current DDIE prediction methods generally focus on classifying drug pair instances through label prediction, collectively called classification-based methods. Some of them construct a drug"
+    },
+    {
+      "pdf": "e:\\Study\\DrugDeepMind\\software\\Wang 等 - PKAG-DDI Pairwise Knowledge-Augmented Language Model for Drug-Drug Interaction Event Text Generatio.no_watermark.zh-CN.dual.pdf",
+      "point_id": "Wang-PKAG-DDI: pairwise knowledge / event generation",
+      "keyword": "generation",
+      "page": 1,
+      "snippet": "©2025 Association for Computational Linguistics PKAG-DDI: Pairwise Knowledge-Augmented Language Model for Drug-Drug Interaction Event Text Generation Ziyan Wang1*, Zhankun Xiong1∗, Feng Huang1, Wen Zhang123 †, 1College of Informatics, Huazhong Agricultural University, Wuhan, China 2Hubei Key Laboratory of Agricultural Bioinformatics, Huazhong Agri"
+    },
+    {
+      "pdf": "e:\\Study\\DrugDeepMind\\software\\Wang 等 - PKAG-DDI Pairwise Knowledge-Augmented Language Model for Drug-Drug Interaction Event Text Generatio.no_watermark.zh-CN.dual.pdf",
+      "point_id": "Wang-PKAG-DDI: pairwise knowledge / event generation",
+      "keyword": "generation",
+      "page": 2,
+      "snippet": "the accuracy of DDIE prediction. Thus, incorporating biological functions holds promise for improving the capa- bility of LM for DDIE text generation. However, biological functions are specialized knowledge that may not be readily accessible, potentially limiting widespread practical applications. To tackle the above problem, we noticed retrieval-"
+    },
+    {
+      "pdf": "e:\\Study\\DrugDeepMind\\software\\Wang 等 - PKAG-DDI Pairwise Knowledge-Augmented Language Model for Drug-Drug Interaction Event Text Generatio.no_watermark.zh-CN.dual.pdf",
+      "point_id": "Wang-PKAG-DDI: pairwise knowledge / event generation",
+      "keyword": "text",
+      "page": 1,
+      "snippet": "2025 ©2025 Association for Computational Linguistics PKAG-DDI: Pairwise Knowledge-Augmented Language Model for Drug-Drug Interaction Event Text Generation Ziyan Wang1*, Zhankun Xiong1∗, Feng Huang1, Wen Zhang123 †, 1College of Informatics, Huazhong Agricultural University, Wuhan, China 2Hubei Key Laboratory of Agricultural Bioinformatics, Hu"
+    },
+    {
+      "pdf": "e:\\Study\\DrugDeepMind\\software\\Wang 等 - PKAG-DDI Pairwise Knowledge-Augmented Language Model for Drug-Drug Interaction Event Text Generatio.no_watermark.zh-CN.dual.pdf",
+      "point_id": "Wang-PKAG-DDI: pairwise knowledge / event generation",
+      "keyword": "text",
+      "page": 2,
+      "snippet": "biological functions (including drug mechanisms, activities, and categories) (Hu et al., 2023). The biological functions can serve as a context to explicitly supple- ment and explain biological logical inference pro- cesses when DDI occurs. For example, as depicted in Figure 1 (b), Rabeprazole, as gastric alkalin- izer2 can influence the act"
+    },
+    {
+      "pdf": "e:\\Study\\DrugDeepMind\\software\\Wang 等 - PKAG-DDI Pairwise Knowledge-Augmented Language Model for Drug-Drug Interaction Event Text Generatio.no_watermark.zh-CN.dual.pdf",
+      "point_id": "Wang-PKAG-DDI: pairwise knowledge / event generation",
+      "keyword": "pair",
+      "page": 1,
+      "snippet": "l Linguistics (Volume 1: Long Papers), pages 10996–11010 July 27 - August 1, 2025 ©2025 Association for Computational Linguistics PKAG-DDI: Pairwise Knowledge-Augmented Language Model for Drug-Drug Interaction Event Text Generation Ziyan Wang1*, Zhankun Xiong1∗, Feng Huang1, Wen Zhang123 †, 1College of Informatics, Huazhong Agricultural Unive"
+    },
+    {
+      "pdf": "e:\\Study\\DrugDeepMind\\software\\Wang 等 - PKAG-DDI Pairwise Knowledge-Augmented Language Model for Drug-Drug Interaction Event Text Generatio.no_watermark.zh-CN.dual.pdf",
+      "point_id": "Wang-PKAG-DDI: pairwise knowledge / event generation",
+      "keyword": "pair",
+      "page": 2,
+      "snippet": "n DDIE prediction. Ac- cording to this, the first challenge is how to model the mutual-conditioned DDIE-relevant biological function (named pairwise biological function) se- lection while maintaining efficiency. (2) Simply integrating all selected potential pairwise biological functions may introduce additional interference to LM generation,"
+    }
+  ]
+}
