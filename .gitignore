@@ -30,7 +30,7 @@ Pred_egfr_soft.csv
 papers/
 
 # Personal scan / environment notes
-docs/*.txt
+docs/
 
 # OS
 .DS_Store
