@@ -1,6 +1,6 @@
 import csv   
 import pandas as pd
-def duqudrug(names, input_file):   
+def find_drug(names, input_file):   
     output_file = 'Case/drug.tsv'  
     target_name = names  # 你想要查找的名字  
     found = False  # 初始化一个标志，用于判断是否找到了目标行  
@@ -15,7 +15,7 @@ def duqudrug(names, input_file):
     else:  
         print(f"在 {input_file} 中未找到名字为 {target_name} 的行")  
 
-def protdrug1(names, input_file):
+def search_protein(names, input_file):
     output_file = 'Case/prot.tsv'  
     target_name = names  # 你想要查找的名字  
     found = False  # 初始化一个标志，用于判断是否找到了目标行  
@@ -31,7 +31,7 @@ def protdrug1(names, input_file):
         print(f"在 {input_file} 中未找到名字为 {target_name} 的行")
 
 
-def protdrug(names, input_file):
+def find_protein(names, input_file):
     output_file = 'Case/prot.tsv'
     target_name = names  # 你想要精确查找的名字
     df = pd.read_csv(input_file, sep=",")

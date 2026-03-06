@@ -1,7 +1,7 @@
 ﻿$root = Split-Path -Parent $MyInvocation.MyCommand.Path
 Set-Location $root
 $venvPy = Join-Path $root '.venv\Scripts\python.exe'
-$script = Join-Path $root 'project_soft.py'
+$script = Join-Path $root 'app.py'
 if ($args.Count -gt 0 -and $args[0] -eq 'pred') {
   $script = Join-Path $root 'pred.py'
 }
@@ -29,3 +29,4 @@ if ($LASTEXITCODE -ne 0) {
 }
 
 & $venvPy -u $script
+

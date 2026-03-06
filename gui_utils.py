@@ -1,6 +1,6 @@
 """
 GUI工具函数模块
-提取project_soft.py中的重复代码
+提取app.py中的重复代码
 """
 import tkinter
 from tkinter import Canvas

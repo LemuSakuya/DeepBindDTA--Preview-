@@ -226,7 +226,7 @@ def get_mol2vec(word2vec_pth, df_dir, db_name, sep=' ',
     return dump_data
 
 
-def getPairs(drug_dir, prot_dir, sep, d_col_names, p_col_names):
+def get_pairs(drug_dir, prot_dir, sep, d_col_names, p_col_names):
     d_df = pd.read_csv(drug_dir, sep=sep)
     d_df.columns = d_col_names
     p_df = pd.read_csv(prot_dir, sep=sep)

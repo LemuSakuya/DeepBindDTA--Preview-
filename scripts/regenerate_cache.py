@@ -1,6 +1,6 @@
 import os
 import utils
-from hyperparameter4pred import HyperParameter
+from model_config import HyperParameter
 
 def regenerate():
     print("Initializing regeneration...")

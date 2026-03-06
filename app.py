@@ -90,7 +90,7 @@ def _ensure_rdkit() -> bool:
         RDKIT_AVAILABLE = False
         return False
 
-import duqu
+import data_extractor
 
 warnings.filterwarnings('ignore', category=UserWarning, module='pandas') #去除推荐SQLAlchemy警告
 warnings.filterwarnings('ignore', category=FutureWarning, module='torch') #去除torch版本警告
@@ -2607,8 +2607,8 @@ def drug_prot_dta_predict(drug_name, protein_name):
             tip += f"\n可能的候选：{', '.join(prot_suggestions)}"
         messagebox.showwarning(title='错误提示', message=f'您输入的靶标名称有误，请重新输入！\n{tip}')
         return
-    duqu.duqudrug(drug_name, input_file)
-    duqu.protdrug(resolved_prot, input_file1)
+    data_extractor.find_drug(drug_name, input_file)
+    data_extractor.find_protein(resolved_prot, input_file1)
     # 直接进入结果窗口并开始预测（不再弹出“准备预测DTA”确认窗）
     dta_predicts(drug_name, protein_name, resolved_prot)
     return
@@ -3129,8 +3129,8 @@ def dta_ddi_compare(root):  # DTA与DDI预测对比界面（左右对比）
             messagebox.showwarning(title='错误提示', message=f'您输入的靶标名称有误，请重新输入！\n{tip}')
             return
         try:
-            duqu.duqudrug(drug_name, 'EGFR-Case/drug.tsv')
-            duqu.protdrug(resolved_prot, 'davis_prots.csv')
+            data_extractor.find_drug(drug_name, 'EGFR-Case/drug.tsv')
+            data_extractor.find_protein(resolved_prot, 'davis_prots.csv')
         except Exception as exc:
             messagebox.showwarning(title='错误提示', message=f'准备数据失败：{exc}')
             return

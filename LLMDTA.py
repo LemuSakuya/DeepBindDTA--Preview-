@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from TryAttentionBlock import *
+from attention_blocks import *
 
 '''
     LLMDTA

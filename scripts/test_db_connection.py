@@ -3,7 +3,7 @@ import pymysql
 def test_db_connection():
     """测试数据库连接"""
     try:
-        # 使用与project_soft.py相同的连接配置
+        # 使用与app.py相同的连接配置
         sql_connection = pymysql.connect(host='localhost', user='root', password='12345',
                                         db='drug_discovery', port=3306, autocommit=False, charset='utf8mb4')
 

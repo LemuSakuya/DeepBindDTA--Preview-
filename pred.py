@@ -8,9 +8,9 @@ from tqdm import tqdm
 from gensim.models import word2vec
 from mol2vec.features import mol2alt_sentence
 from rdkit import Chem
-from LLMDTA import LLMDTA as LLMDTA
-from hyperparameter4pred import HyperParameter
-from MyDataset import CustomDataSet, my_collate_fn4pred
+from llmdta import LLMDTA
+from model_config import HyperParameter
+from dataset import CustomDataSet, my_collate_fn4pred
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
@@ -65,7 +65,7 @@ else:
     prot_dir = hp.pred_prot_dir
     d_col_names = hp.d_col_name
     p_col_names = hp.p_col_name
-    pred_pairs = utils.getPairs(drug_dir=drug_dir, prot_dir=prot_dir, sep=sep, d_col_names=d_col_names,
+    pred_pairs = utils.get_pairs(drug_dir=drug_dir, prot_dir=prot_dir, sep=sep, d_col_names=d_col_names,
                                 p_col_names=p_col_names)
     mol2vec_dict = utils.get_mol2vec(word2vec_pth, drug_dir, pred_task_name, sep=sep, col_names=d_col_names)
     protvec_dict = utils.get_esm_pretrain(prot_dir, pred_task_name, sep=sep, col_names=p_col_names)
